@@ -1,4 +1,4 @@
-# Experiment: Compare performance of ML algorithms
+# Experiment: Comparing performance of sklearn's ML algorithms
 
 In this assignment from Udacity's Machine Learning course, I compared several ML algorithms to classify individuals as having >50K income or not. I followed the instructions from the Udacity assignment to perform exploratory data analysis, "one-hot" encode some features, train different models in the `sklearn` libarary to fit the data and then validate against the testing data set: [T_finding_donors.ipynb](starter%2FT_finding_donors.ipynb)
 
