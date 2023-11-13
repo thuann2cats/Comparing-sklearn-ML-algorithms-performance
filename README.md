@@ -6,6 +6,6 @@ This was a simplified classification problem with only several features, mainly 
 
 With that said, the results seem to confirm my prediction that tree-based machine learning techniques may overfit the data (or "memorize the data"). That can be seen in the graph, where `DecisionTreeClassifier` or `BaggingClassifier` or `RandomForestClassifier` achieved close to 100% in the training set, while underperformed in the testing set relative to other ML algorithms. (My apology for the clumsy graph!)
 
-The best candidate, in this problem instance only, seems to be `GradientBoostingClassifier`, which does not overfit the data and achieves the best accuracy and F-score in the training set.
+The best candidate, in this problem instance only, seems to be `GradientBoostingClassifier`, which does not overfit the data and achieves the best accuracy and F-score in the testing set.
 
 ![comparison_plot.PNG](comparison_plot.PNG)
