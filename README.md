@@ -4,7 +4,7 @@ In this assignment from Udacity's Machine Learning course, I compared several ML
 
 This was a simplified classification problem with only several features, mainly for practice purpose and to reinforce what I am learning in Machine Learning, so I did not have many observations from the results.
 
-With that said, the results seem to confirm my prediction that tree-based machine learning techniques may overfit the data (or "memorize the data"). That can be seen in the graph, where `DecisionTreeClassifier` or `BaggingClassifier` or `RandomForestClassifier` achieved close to 100% in the training set, while underperform in the testing set relative to other ML algorithms. (My apology for the clumsy graph!)
+With that said, the results seem to confirm my prediction that tree-based machine learning techniques may overfit the data (or "memorize the data"). That can be seen in the graph, where `DecisionTreeClassifier` or `BaggingClassifier` or `RandomForestClassifier` achieved close to 100% in the training set, while underperformed in the testing set relative to other ML algorithms. (My apology for the clumsy graph!)
 
 The best candidate, in this problem instance only, seems to be `GradientBoostingClassifier`, which does not overfit the data and achieves the best accuracy and F-score in the training set.
 
